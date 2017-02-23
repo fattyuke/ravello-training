@@ -77,6 +77,9 @@ angular.module('trng.trainer.training.classes').controller('trainerSingleClassEd
 
 
 		function fetchBpsCloudsAndRegions() {
+			if (!$scope.currentClass.course) {
+				return;
+			}
 			$scope.bpIdToLocations = {};
 			_.forEach($scope.currentClass.course.blueprints, function(blueprint) {
 				var bpId = blueprint.id;
