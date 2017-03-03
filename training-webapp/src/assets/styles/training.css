@@ -164,7 +164,7 @@ h3.panel-title {
     font-size: 20px !important;
 }
 .panel-default > .panel-heading {
-    background-image: transparent url(../images/train-back.png) no-repeat center left scroll;
+    background-image: url("../images/train-back.png");
     background-color:#26526e;
 }
 .panel-group .panel-heading + .panel-collapse .panel-body {
@@ -215,7 +215,7 @@ hr {
 .powered-by, .student-name {
     display: table-cell;
     vertical-align: middle;
-    color: white;
+    color:#797b7b!important;
     font-style: italic;
     font-size: 12px;
     width: 20%;
