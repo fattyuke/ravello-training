@@ -14,7 +14,7 @@ html, body {
 }
 
 .header-container {
-    background-color: #232323;
+    background-color: #FFFFFF;
 }
 .header {
     height: 50px;
@@ -40,7 +40,7 @@ html, body {
     /*background: transparent url(../images/ravello-logo-small.png) no-repeat center left scroll;*/
     background: transparent url(../images/logo_2x.png) no-repeat center left scroll;
     background-size: 230px 25px;
-    padding-left: 45px;
+    padding-left: 145px;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     margin: 0;
