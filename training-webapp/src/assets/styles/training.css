@@ -49,8 +49,8 @@ html, body {
 	margin: 6px 0 26px 0;
     display: table-cell;
     vertical-align: middle;
-    color: black;
-    font-size: 22px;
+	color:#797b7b!important;
+    font-size: 22px!important;
     width: 28%;
 }
 .header-filler {
