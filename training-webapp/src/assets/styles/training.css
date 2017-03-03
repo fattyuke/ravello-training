@@ -25,7 +25,7 @@ html, body {
     background-color: #FFFFFF;
 }
 .header {
-    height: 50px;
+    height: 80px;
     display: table;
     margin: 0 auto 62px;
 }
@@ -59,7 +59,7 @@ html, body {
     vertical-align: middle;
 	color:#797b7b!important;
     font-size: 22px!important;
-    width: 128%;
+    width: 28%;
 }
 .header-filler {
     display: table-cell;
