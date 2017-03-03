@@ -1,24 +1,17 @@
-<div>
-    <div class="container-fluid header-container">
-        <div class="header">
-            <h1 class="header-title">Training Portal</h1>
-
-
-            <ul class="main-nav">
-                
-                    <ul class="submenu">
-                        <div class="submenu-wrapper">
-                            <div class="submenu-links">
-                                <li><a href="" ng-click="navigateToClasses()" ng-class="{'active': isClassesActive()}">Classes</a></li>
-                                <li><a href="" ng-click="navigateToCourses()" ng-class="{'active': isCoursesActive()}">Courses</a></li>
-                            </div>
-                        </div>
-                    </ul>
-
+<div class="container-fluid header-container">
+    <div class="header">
+        <h1 class="header-title">Training Portal</h1>
+        <ul class="main-nav">
+            <ul class="submenu">
+                <div class="submenu-wrapper">
+                	<div class="submenu-links">
+                    	<li><a href="" ng-click="navigateToClasses()" ng-class="{'active': isClassesActive()}">Classes</a></li>
+                        <li><a href="" ng-click="navigateToCourses()" ng-class="{'active': isCoursesActive()}">Courses</a></li>
+                    </div>
+                </div>
             </ul>
-
-                        <div class="powered-by text-right"><span class="ravello-logo">Powered by Ravello Systems</span></div>
-        </div>
-    </div>
-    <div ui-view></div>
+        </ul>
+		<div class="powered-by text-right"><span class="ravello-logo">Powered by Ravello Systems</span></div>
+	</div>
+	<div ui-view></div>
 </div>
