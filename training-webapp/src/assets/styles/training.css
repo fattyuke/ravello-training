@@ -40,10 +40,13 @@ html, body {
     /*background: transparent url(../images/ravello-logo-small.png) no-repeat center left scroll;*/
     background: transparent url(../images/logo_2x.png) no-repeat center left scroll;
     background-size: 230px 25px;
-    padding-left: 145px;
+    padding-left: 245px;
+    font-family: "proxima-nova",sans-serif!important;
+    font-weight: 300!important;
+    letter-spacing: .3px;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
-    margin: 0;
+	margin: 6px 0 26px 0;
     display: table-cell;
     vertical-align: middle;
     color: black;
