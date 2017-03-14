@@ -181,7 +181,10 @@ h3.panel-title {
     margin-bottom: 15px;
 }
 .accordionGroup {
-    background-color: #000000;
+    background-color: #F0F0F0;
+}
+.accordionGroup.heading {
+    color: #F0F0F0;
 }
 #rav-default-check {
     margin-top: 10px;
