@@ -51,13 +51,11 @@ html, body {
     font-family: "proxima-nova",sans-serif!important;
     font-weight: 300!important;
     letter-spacing: .3px;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
 	margin: 6px 0 26px 0;
     display: table-cell;
     vertical-align: middle;
 	color:#797b7b!important;
-    font-size: 22px!important;
+    font-size: 20px!important;
     width: 28%;
 }
 .header-filler {
@@ -168,7 +166,7 @@ a.dropdown:after{
     margin: 0;
 }
 h3.panel-title {
-    font-size: 60px !important;
+    font-size: 20px !important;
 }
 .panel-default > .panel-heading {
     background-image: url("../images/train-back.png");
