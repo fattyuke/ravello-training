@@ -1,0 +1,29 @@
+<div>
+    <div class="container-fluid header-container">
+        <div class="header">
+            <h1 class="header-title">Training Portal</h1>
+
+
+            <ul class="main-nav">
+                <li><a href="" ng-click="navigateToClasses()" class="dropdown">Training</a>
+                    <ul class="submenu">
+                        <div class="submenu-wrapper">
+                            <div class="submenu-links">
+                                <li><a href="" ng-click="navigateToClasses()" ng-class="{'active': isClassesActive()}">Classes</a></li>
+                                <li><a href="" ng-click="navigateToCourses()" ng-class="{'active': isCoursesActive()}">Courses</a></li>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="table-cell text-right">
+                <button id="logoutBtn" class="btn btn-default btn-sm" ng-click="logout()">
+                    <i class="fa fa-sign-out"></i>Logout
+                </button>
+            </div>
+            <div class="powered-by text-right"><span class="ravello-logo">Powered by Ravello Systems</span></div>
+        </div>
+    </div>
+    <div ui-view></div>
+</div>
