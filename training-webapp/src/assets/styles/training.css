@@ -168,7 +168,7 @@ a.dropdown:after{
     margin: 0;
 }
 h3.panel-title {
-    font-size: 20px !important;
+    font-size: 60px !important;
 }
 .panel-default > .panel-heading {
     background-image: url("../images/train-back.png");
